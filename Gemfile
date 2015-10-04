@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in pec-calc-client.gemspec
+# Specify your gem's dependencies in pec_calc_client.gemspec
 gemspec
 
 group :development do
