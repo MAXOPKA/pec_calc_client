@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'PecCalcClient'
+  s.name        = 'pec-calc-client'
   s.version     = '0.1.0'
   s.licenses    = ['MIT']
   s.summary     = "Gem for working with public API http://pecom.ru/business/developers/api_public/"
