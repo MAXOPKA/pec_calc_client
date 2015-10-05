@@ -2,7 +2,6 @@
 
 Gem for integration with API transport company PEC
 
-API description PAGE
 [API description](http://pecom.ru/business/developers/api_public/)
 
 ## Installation
