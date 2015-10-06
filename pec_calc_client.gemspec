@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'pec_calc_client'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.licenses    = ['MIT']
   s.summary     = "Gem for PEC transport Company API"
   s.description = "Gem for working with public API http://pecom.ru/business/developers/api_public/"
@@ -12,4 +12,8 @@ Gem::Specification.new do |s|
                       '[A-Z]*',
                       'spec/*','spec/pec_calc_client/*'].to_a
   s.homepage    = 'https://rubygems.org/gems/pec_calc_client'
+
+
+  s.add_runtime_dependency 'json', '~> 1.8'
+
 end
