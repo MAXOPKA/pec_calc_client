@@ -4,6 +4,7 @@ Gem for integration with API transport company PEC
 
 [API description](http://pecom.ru/business/developers/api_public/)
 
+[![Gem Version](https://badge.fury.io/rb/pec_calc_client.svg)](https://badge.fury.io/rb/pec_calc_client)
 ## Installation
 
 Add this line to your application's Gemfile:
