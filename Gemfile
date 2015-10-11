@@ -8,4 +8,5 @@ group :development do
   gem 'faker'
 end
 
+gem 'rack'
 gem 'json'

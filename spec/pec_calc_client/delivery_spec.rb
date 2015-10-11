@@ -5,7 +5,7 @@ describe 'Delivery' do
   describe '#initialize' do
     it 'Should be initialized' do
       delivery = PecCalcClient::Delivery.new(delivery_params)
-      hash_of_params = PecCalcClient::Delivery::DELIVERY_PARAMS.map{ |k| [ k.to_sym, delivery.send(k) ] }.to_h
+      hash_of_params = PecCalcClient::Delivery::PARAMS.map{ |k| [ k.to_sym, delivery.send(k) ] }.to_h
       expect(hash_of_params).to eq delivery_params
     end
   end

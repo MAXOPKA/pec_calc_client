@@ -9,8 +9,8 @@ module PecCalcClient
       params.each{ |k, v| instance_variable_set("@#{ k }", v) if PLACE_PARAMS.include? k.to_s }
     end
 
-    def to_json
-      PLACE_PARAMS.map{ |k| instance_variable_get("@#{ k }") }.to_json
+    def to_a
+      PLACE_PARAMS.map{ |k| instance_variable_get("@#{ k }") }
     end
   end
 end
