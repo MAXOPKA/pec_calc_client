@@ -2,7 +2,7 @@
 describe 'Region' do
   describe '#initialize' do
     it 'Should initialize' do
-      region = PecCalcClient::Region.new('RegionName', [{ id: 14, name: 'Name1' }, { id: 11, name: 'Name' }] )
+      region = PecCalcClient::Region.new('RegionName', [{ id: 14, name: 'Name1' }, { id: 11, name: 'Name' }])
       expect(region.name).to eq 'RegionName'
       expect(region.towns.first.class.to_s).to eq 'PecCalcClient::Town'
     end
